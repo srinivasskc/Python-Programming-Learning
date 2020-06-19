@@ -1,0 +1,34 @@
+Arguments (Args) and Keyword Arguments (KArgs):
+
+Arguments in a function: Positional Arguments (args)
+    A variable "passed in" to the function to be used in the function.
+
+
+Keyword Arguments in a function: (kwargs)
+  We can set some default values to the arguments
+  With Keyword Arguments, we can pass the arguments in any order
+  An argument that maps a keyword to a specific value
+
+*args:
+  allows for unlimited variables to be passed into the function without defining them ahead of time
+  That the function should be able to handle any number of positional arguments
+Ex:
+ def add(*args):
+    print(sum(args))
+ 
+ add(2,3,4,5)
+ 
+  
+**kwargs:
+allows for unlimited keyword arguments to be passed into the function without defining them ahead of time
+That the function should be able to handle any number of keyword arguments
+
+Ex:
+def app(**kwargs):
+  print(**kwargs)
+app(name="SK", age = 11, city = "Hyd", Book = "Python", email = "python@email.com")
+
+
+Positional arguments must come first. (args vs kwards)
+*args must come first  (*args vs **kwargs)
+

@@ -1,0 +1,12 @@
+print(1<1)
+print(1<2)
+print(2>2)
+print(2>0)
+print(2==2)
+print(2!=1)
+print(2!=2)
+print(10<=11)
+print(10<=10)
+print(21>=10)
+print(21>=21)
+

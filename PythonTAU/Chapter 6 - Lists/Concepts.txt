@@ -1,0 +1,16 @@
+A Python list is a collection of items.
+
+The items in a Python list can be of any data type and the items contained in a list can even be other lists, dictionaries, sets, tuples, or any mixture of Python data.
+Lists are mutable, which means that the item inside of a list can be retrieved, changed, rearranged, and acted upon in multiple different ways.
+Python lists maintain their order, which means that you can access something by its position or index using some of the list methods available in Python.
+
+Lists
+Print Lists
+Append List Function
+Extend List Function
+Remove List Function
+Pop List Function
+Sort List Function
+in Membership 
+Count List Function
+Index of List Item

@@ -1,0 +1,22 @@
+Dictionaries
+Dictionaries are a type of Python data collection that stores the data in key/value pairs.
+
+The keys are generally made of Strings, integers, or tuples, and need to be both unique and immutable.
+
+The values can be set to any data type and any number of key/value pairs can be contained in a dictionary.
+
+You can make an empty dictionary by assigning a dictionary name with nothing in the curly braces or your dictionary can contain millions of entries.
+
+As of Python 3.7, the order of a dictionary can be maintained.
+
+Dictionaries are mutable and can be changed using the Python dictionary methods.
+
+Methods:
+get
+items
+keys
+values
+popitem
+pop
+setdefault
+update

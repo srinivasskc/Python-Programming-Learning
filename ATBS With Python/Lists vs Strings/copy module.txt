@@ -1,0 +1,15 @@
+Copy Module:
+
+>>> spam=['A','C', 'D', 'F']
+
+>>> import copy
+
+>>> cheese = copy.deepcopy(spam)
+>>> cheese
+['A', 'C', 'D', 'F']
+>>> cheese[1] = 5
+>>> cheese
+['A', 5, 'D', 'F']
+>>> spam
+['A', 'C', 'D', 'F']
+>>> 

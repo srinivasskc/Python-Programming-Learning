@@ -1,0 +1,62 @@
+>>> list("Hello")
+['H', 'e', 'l', 'l', 'o']
+>>> 
+>>> name = "Srini"
+>>> name[0]
+'S'
+>>> name[1:3]
+'ri'
+>>> name[-1]
+'i'
+>>> name[-3]
+'i'
+>>> "in" in name
+True
+>>> "reni" in name
+False
+>>> 
+>>> for letter in name:
+	print(letter)
+
+S
+r
+i
+n
+i
+>>> 
+>>> 
+>>> 
+
+
+List is a mutable data type
+It can have values added removed or changed.
+
+Whereas, String value is immutable
+It cannot be changed.
+>>> name = 'My Name is Srinivas'
+>>> name
+'My Name is Srinivas'
+>>> name[7]
+' '
+>>> name[8]
+'i'
+>>> name[8] - 'e'
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    name[8] - 'e'
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+>>>
+
+The proper way to modify a string is to create a new string using slices.
+
+>>> name
+'My Name is Srinivas'
+>>> name[9]
+'s'
+>>> newName = name[0:7] + "the" + name[10: ]
+>>> newName
+'My Namethe Srinivas'
+>>> newName = name[0:7] + " the" + name[10: ]
+>>> newName
+'My Name the Srinivas'
+>>>  

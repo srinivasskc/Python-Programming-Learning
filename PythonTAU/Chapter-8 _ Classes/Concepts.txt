@@ -1,0 +1,26 @@
+Classes
+A way to group related functions and variables
+
+Class Variable
+A variable that is available to every class method
+
+Instance Variable
+A variable that is only available to a specific method
+
+__init__
+A method that acts as a constructor, allowing for an object to be created with specific parameters
+
+self
+Self makes all class methods available to every object that is created by a class
+
+Class Syntax:
+class New:
+
+__init__method syntax:
+def __init__(self, arguments):
+
+create new class object:
+Assign a variable to create a new class object, then pass in arguments to construct the object
+
+Class Method
+new_object.class_method()

@@ -1,0 +1,24 @@
+When we assign a list to a variable, 
+we are actually assigning a list reference to the variable.
+This applies to Mutable data types.
+
+
+>>> spam = [0,1,2,3,4,5]
+>>> spam
+[0, 1, 2, 3, 4, 5]
+>>> cheese = spam
+>>> cheese
+[0, 1, 2, 3, 4, 5]
+>>> cheese[2] = "Hello"
+>>> cheese
+[0, 1, 'Hello', 3, 4, 5]
+>>> spam
+[0, 1, 'Hello', 3, 4, 5]
+>>> 
+
+Immutable values dont have this problem, because they cant be modified "in place"
+They can only be replaced by new values.
+Example: Strings
+
+
+

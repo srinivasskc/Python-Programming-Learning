@@ -1,0 +1,123 @@
+A method is the same thing as a function except
+it's attached to a certain value.
+
+List Values will have a method called Index.
+
+List Method: Index
+
+spam = ["Hello","Hi","Howdy"]
+spam.index(value in list)
+It returns the index of the value that is passed on.
+
+>>> spam = ["Hello", "Hi", "Howdy"]
+>>> spam
+['Hello', 'Hi', 'Howdy']
+>>> spam.index("Hi")
+1
+>>> spam.index("Howdy")
+2
+>>> 
+
+>>> spam.index("Howdie")
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    spam.index("Howdie")
+ValueError: 'Howdie' is not in list
+
+
+If there are duplicate values in the list.
+spam.index("Value") = Returns first index of Value.
+
+>>> spam = ["Hello", "Hi", "Hi", "Howdy", "Hello", "Howdie", "Hey"]
+>>> spam
+['Hello', 'Hi', 'Hi', 'Howdy', 'Hello', 'Howdie', 'Hey']
+>>> spam.index("Hello")
+0
+>>> spam.index("Hi")
+1
+
+
+List Method: Appends
+It adds the new value to the end of the list.
+
+>>> spam
+['Hello', 'Hi', 'Hi', 'Howdy', 'Hello', 'Howdie', 'Hey']
+>>> spam.append("Howrie")
+>>> spam
+['Hello', 'Hi', 'Hi', 'Howdy', 'Hello', 'Howdie', 'Hey', 'Howrie']
+>>> 
+
+List Method: Insert
+We can insert a value at any point inside the list.
+insert(index position,"Value")
+
+>>> spam
+['Hello', 'Hi', 'Hi', 'Howdy', 'Hello', 'Howdie', 'Hey', 'Howrie']
+
+>>> spam.insert(1, "Heyas")
+>>> spam
+['Hello', 'Heyas', 'Hi', 'Hi', 'Howdy', 'Hello', 'Howdie', 'Hey', 'Howrie']
+
+Return type of insert and append is none.
+We wont assign the return value of append or insert.
+
+Methods belongs to single data type.
+These methods - append or insert methods are list methods and can be called on list values only.
+They cannot be called on strings or integers.
+
+List Method: Remove()
+Removes the first instance of the value from the list .
+No matter, where the location of the value in the list.
+
+>>> spam
+['Hello', 'Heyas', 'Hi', 'Hi', 'Howdy', 'Hello', 'Howdie', 'Hey', 'Howrie']
+>>> spam.remove("Hello")
+>>> spam
+['Heyas', 'Hi', 'Hi', 'Howdy', 'Hello', 'Howdie', 'Hey', 'Howrie']
+>>> 
+
+Whereas del method removes the value specified in the index location.
+del spam[0]
+
+
+List Method: Sort()
+Sorts the list of values in ascending order.
+It is based on ASCII betical order. Not alphabetical order.
+
+>>> spam
+['Heyas', 'Hi', 'Hi', 'Howdy', 'Hello', 'Howdie', 'Hey', 'Howrie']
+>>> spam.sort()
+>>> spam
+['Hello', 'Hey', 'Heyas', 'Hi', 'Hi', 'Howdie', 'Howdy', 'Howrie']
+>>> 
+>>> nums = [20, -1, 500, 1, 0, 15]
+>>> nums.sort()
+>>> nums
+[-1, 0, 1, 15, 20, 500]
+>>> 
+
+List Method: Sort in Reverse Order
+
+>>> nums.sort(reverse=True)
+>>> nums
+[500, 20, 15, 1, 0, -1]
+>>> 
+
+We cannot sort a list which has both integers and strings.
+
+
+>>> spam=["Hello", "hi", "hello", "Hi", "howdy", "Howdy", "HOW"]
+>>> spam.sort()
+>>> spam
+['HOW', 'Hello', 'Hi', 'Howdy', 'hello', 'hi', 'howdy']
+>>> 
+
+Sorting in True Alphabetical Order
+
+>>> spam = ["A", "a", "z", "Z"]
+>>> spam.sort(key=str.lower)
+>>> spam
+['A', 'a', 'z', 'Z']
+
+Here, we are convert to lower string, and then sort in true alphabetical order.
+

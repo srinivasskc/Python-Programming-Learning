@@ -1,0 +1,53 @@
+Python Built-In Functions
+====================
+print()
+len()
+input()
+
+Standard Libary - Modules: Which contains Functions
+==================================================
+module: math
+
+module: random
+Functions:
+randint(x,y)
+
+module: os
+
+module: sys
+
+===================================================
+Importing random Module - Way 1: [Recommended Way]
+
+import random
+random.randint(1,10)
+
+==========================================
+Importing random Module - Way 2:
+
+import random, os, sys, math
+random.randint(1,10)
+
+
+=========================================
+Importing random Module - Way 3:
+
+from random import *    #imports every function from random module.
+randint(1,10)
+
+==============================================
+#The way to stop the execution, before it completes.
+
+Importing sys Module = Way 1:
+
+import sys
+sys.exit()   #program will terminate.
+
+================================================
+
+
+
+
+
+
+

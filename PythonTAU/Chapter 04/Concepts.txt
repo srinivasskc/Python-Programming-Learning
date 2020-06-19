@@ -1,0 +1,19 @@
+Loops:
+Loop is used when we like to repeat same actions any number of times
+
+For Loop:
+A for loop is useful when you'd like to iterate over each item in a list. 
+The for loop allows you to repeat your action for every item in the list or for a specified number of items in the list.
+
+While Loop:
+A while loop will run any time a condition remains true.
+
+Loop Controls:
+The break statement indicates that when you see it, the loop should end and go on to the next statement in the program that is outside of the loop.
+
+The continue statement skips the current part of the loop and moves on to the next part of the loop.
+
+The pass statement skips any part of the loop where pass appears. This is best used for testing code, but make sure you don't forget to remove the pass statement when you're ready for your code to go into production.
+
+
+

@@ -1,0 +1,20 @@
+Writing your own functions
+
+Arguments = The value passed in function call
+Parameter = The variable inside the function
+
+
+Every function call has a return value.
+If your function does not have a return statement, the return value defaults to None Value.
+
+
+Keyword Arguments:
+When we print("Hello") and print("Hi") in two lines, both strings are printed in two different lines.
+As it is keyword argument is set to new line.
+we can change the keyword argument.
+Example:
+print("hello", end=" ")
+print("hi")
+
+Keyword arguments are optional.
+

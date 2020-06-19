@@ -1,0 +1,9 @@
+Functions
+  A function is a unit of code that can be reused throughout a program.
+
+Defining Function: def name():
+
+Input Function: input(" ")
+
+String to Int:  int(input())
+

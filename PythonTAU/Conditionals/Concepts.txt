@@ -1,0 +1,35 @@
+Conditional:
+A statement that allows us to make decisions within our code based on a given set of conditions
+
+
+
+
+Comparison Operators:  An operator that allows for a comparison between two values
+Less Than <
+Greater Than >
+Equal To ==
+Less Than or Equal To <=
+Greater Than or Equal To >=
+Not Equal To !=
+
+----------------------
+If
+Elif
+Else
+
+If is required to start a conditional block
+You should use else whenever you want to catch any conditions not identified in "if" or "elif" statements. It can be used only once per conditional block
+
+order matter in a conditional block
+when a condition inside of the conditional block - The code exits the conditional block
+python "reads" the program from top to bottom, and will cause errors if functions are called before they are created
+
+---------------------------
+Operators:
+add +
+sub -
+multiply *
+division /
+modulus %
+
+
