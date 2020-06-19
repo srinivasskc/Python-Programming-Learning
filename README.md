@@ -25,3 +25,6 @@ Month: June 2020
 Day 1 - 15 June: https://github.com/srinivasskc/Python-Programming-Learning/tree/master/Python150Challenges/The%20Basics
 
 Day 2 - 17 June: https://github.com/srinivasskc/Python-Programming-Learning/tree/master/Python150Challenges/If%20Statements
+
+Day 3 - 19 June: https://github.com/srinivasskc/Python-Programming-Learning/tree/master/Python150Challenges/Strings
+
