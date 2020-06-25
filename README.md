@@ -31,3 +31,5 @@ Day 3 - 19 June: https://github.com/srinivasskc/Python-Programming-Learning/tree
 Day 4 - 21 June: https://github.com/srinivasskc/Python-Programming-Learning/tree/master/Python150Challenges/Math
 
 Day 5 - 23 June: https://github.com/srinivasskc/Python-Programming-Learning/tree/master/Python150Challenges/ForLoops/35-44%20Challenges
+
+Day 6 - 25 June: https://github.com/srinivasskc/Python-Programming-Learning/tree/master/Python150Challenges/ForLoops/35-44%20Challenges
