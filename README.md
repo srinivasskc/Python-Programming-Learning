@@ -35,3 +35,5 @@ Day 5 - 23 June: https://github.com/srinivasskc/Python-Programming-Learning/tree
 Day 6 - 25 June: https://github.com/srinivasskc/Python-Programming-Learning/tree/master/Python150Challenges/ForLoops/35-44%20Challenges
 
 Day 7 - 01 July: https://github.com/srinivasskc/Python-Programming-Learning/tree/master/Python150Challenges/WhileLoops/Challenges%2045%20-%2051
+
+Day 8 - 02 July: https://github.com/srinivasskc/Python-Programming-Learning/tree/master/Python150Challenges/WhileLoops/Challenges%2045%20-%2051
