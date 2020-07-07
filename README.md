@@ -38,4 +38,4 @@ Day 7 - 01 July: https://github.com/srinivasskc/Python-Programming-Learning/tree
 
 Day 8 - 02 July: https://github.com/srinivasskc/Python-Programming-Learning/tree/master/Python150Challenges/WhileLoops/Challenges%2045%20-%2051
 
-Day 9 - 07 July: 
+Day 9 - 07 July: https://github.com/srinivasskc/Python-Programming-Learning/tree/master/Python150Challenges/Random
